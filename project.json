@@ -1,0 +1,8 @@
+{
+  "name": "revelation",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::556428427781:role/revelation_lambda_function",
+  "environment": {}
+}
