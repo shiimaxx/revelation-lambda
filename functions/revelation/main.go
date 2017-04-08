@@ -21,6 +21,11 @@ func main() {
 			return nil, err
 		}
 
+		err = revelation.ToSlack(postItems)
+		if err != nil {
+			return nil, err
+		}
+
 		return postItems, nil
 	})
 }
